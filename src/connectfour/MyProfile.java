@@ -144,6 +144,7 @@ public class MyProfile extends javax.swing.JFrame {
                 ConnectFour.score[x][1] = 0;
                 ConnectFour.player1 = " ";                
                 ConnectFour.current = LoginForm.search(ConnectFour.player1);
+                Ranking.resetRanking();
                 Ranking.checkRanking();
                 for(int y = 0; y < 10; y++){
                     ConnectFour.history[y][x] = " ";

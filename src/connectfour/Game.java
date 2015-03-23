@@ -88,7 +88,7 @@ public class Game extends javax.swing.JFrame {
                 for(int a = 0; a < 10; a++){
                     if(user[a][0].equalsIgnoreCase(player1)){
                         score[a][0] += 3;
-                        history(false);
+                        history(true);
                         this.dispose();
                     }
                 }
